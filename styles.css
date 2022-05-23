@@ -38,7 +38,7 @@ body {
     font-size: clamp(0.9rem, 1.4vw, 3rem);
     font-weight: bold;
     background-color: aliceblue;
-    padding: 15vh 15vw 7vh 3vw;
+    padding: 10% 15vw 7vh 3vw;
     z-index: 2;
 }
 
@@ -94,9 +94,10 @@ label {
 
 input {
     all: unset;
-    margin-right: clamp(4rem, 0.85vw, 5rem);
-    width: clamp(12rem, 0.85vw, 15rem);
-    height: clamp(1.8rem, 0.85vw, 2rem);
+    margin-top: 4px;
+    margin-right: clamp(1rem, 3vw, 2rem);
+    width: clamp(10rem, 15vw, 15rem);
+    height: clamp(1rem, 3.5vh, 2rem);
     border-radius: 5%;
     font-size: clamp(0.8rem, 1.1vw, 3rem);
     border: 1px solid rgba(37, 255, 37, 0);
